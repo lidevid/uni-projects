@@ -1,0 +1,2 @@
+SELECT 'DROP TABLE "' || TABLE_NAME || '" CASCADE CONSTRAINTS;'
+FROM user_tables;
